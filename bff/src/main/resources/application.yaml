@@ -1,0 +1,21 @@
+server:
+  port: 8090
+grpc:
+  client:
+    user:
+      address: ${USER_GRPC_URL}
+      negotiationType: PLAINTEXT
+    advice:
+      address: ${ADVICE_GRPC_URL}
+      negotiationType: PLAINTEXT
+---
+spring:
+  config:
+    activate:
+      on-profile: develop
+grpc:
+  client:
+    user:
+      address: static://localhost:50150
+    advice:
+      address: static://localhost:50151
