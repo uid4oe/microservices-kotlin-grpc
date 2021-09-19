@@ -1,6 +1,7 @@
 # Microservices Kotlin gRPC
 
-[Deployed in EC2, Check it out!](http://ec2-18-192-156-217.eu-central-1.compute.amazonaws.com/kotlin)
+[Only the Go Version is deploy, due to EC2 bills :)](https://go-grpc.uid4oe.dev)
+You can run images locally.
 
 This repo contains microservices written in Kotlin with BFF pattern for performing CRUD operations. 
 
